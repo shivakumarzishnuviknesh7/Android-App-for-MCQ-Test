@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quizapp_android.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image background for the top half -->
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_1" />
+
+        <!-- Thank you message -->
+        <TextView
+            android:id="@+id/thankYouText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="@string/thank_you_for_submitting_the_quiz"
+            android:textColor="@color/pink"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- White background layout for the controls -->
+        <LinearLayout
+            android:id="@+id/controlsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/oval_background"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:backgroundTint="#4CAF50"/>
+
+            <TextView
+                android:id="@+id/tvres2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/oval_background"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:backgroundTint="#E91E63"/>
+
+            <TextView
+                android:id="@+id/tvres3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/oval_background"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:backgroundTint="#FF9800"/>
+
+            <Button
+                android:id="@+id/btnRestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="16dp"
+                android:text="@string/restart"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

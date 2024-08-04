@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quizapp_android.QuestionsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Container for Image and UserName to handle alignment -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Image background for the top half -->
+            <ImageView
+                android:id="@+id/imageViewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_1" />
+
+            <!-- Small TextView for DispName aligned in the top start corner -->
+            <TextView
+                android:id="@+id/DispName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/accent_material_light"/>
+        </RelativeLayout>
+
+        <!-- White background layout for the controls -->
+        <LinearLayout
+            android:id="@+id/controlsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Control elements here -->
+            <ImageButton
+                android:id="@+id/voiceButton"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/speak_answer"
+                android:padding="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/img_5" />
+
+            <TextView
+                android:id="@+id/questionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:padding="4dp"
+                android:text="@string/questions"
+                android:textAlignment="center"
+                android:textColor="@color/pink"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option1Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_1"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/option2Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_2"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/option3Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_3"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonQuit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:backgroundTint="@color/pink"
+                android:enabled="true"
+                android:padding="10dp"
+                android:text="@string/quit"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

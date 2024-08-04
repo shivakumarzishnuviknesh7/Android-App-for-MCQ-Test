@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quizapp_android.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image background for the top half -->
+        <ImageView
+            android:id="@+id/imageViewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_quiz_app"
+            android:textSize="24sp"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- White background layout for the controls -->
+        <LinearLayout
+            android:id="@+id/controlsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/enter_your_name"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/pink"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:padding="10dp"
+                android:text="@string/start"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/about"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

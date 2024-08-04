@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="your_score">Your Score</string>
+    <string name="quizapp">QuizApp</string>
+    <string name="hello_user">Hello User</string>
+    <string name="hello_user_with_name">Hello %1$s</string>
+    <string name="select_choice">Please select one choice</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="no_more_questions">No more questions</string>
+    <string name="first_question">You are at the first question</string>
+    <string name="speak_answer">Speak Answer</string>
+    <string name="questions">Questions</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="quit">Quit</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="welcome_to_quiz_app">Welcome to Quiz App</string>
+    <string name="thank_you_for_submitting_the_quiz">Thank You for Submitting the Quiz</string>
+    <string name="restart">Restart</string>
+    <string name="thank_you_for_using_quizapp_we_hope_you_enjoy_challenging_yourself_and_learning_new_things_with_our_quiz_application">Thank you for using QuizApp. We hope you enjoy challenging yourself and learning new things with our quiz application.</string>
+    <string name="enjoy_quizapp">Enjoy QuizApp!</string>
+    <string name="start_quiz_enter_your_name_and_begin_answering_questions_n_n_navigate_use_buttons_or_shake_your_device_to_navigate_through_questions_n_n_submit_finish_all_questions_to_see_your_final_score">• Start Quiz: Enter your name and begin answering questions.\n\n• Navigate: Use buttons or shake your device to navigate through questions.\n\n• Submit: Finish all questions to see your final score.</string>
+    <string name="how_to_play">How to Play:</string>
+    <string name="multiple_choice_questions_test_your_knowledge_with_a_wide_range_of_multiple_choice_questions_n_n_score_tracking_track_your_progress_with_a_real_time_score_counter_n_n_shake_for_next_question_shake_your_device_to_move_to_the_next_question_on_supported_devices_n_n_light_sensor_automatically_adjusts_screen_brightness_based_on_ambient_light_conditions">• Multiple Choice Questions: Test your knowledge with a wide range of multiple-choice questions.\n\n• Score Tracking: Track your progress with a real-time score counter.\n\n• Shake for Next Question: Shake your device to move to the next question (on supported devices).\n\n• Light Sensor: Automatically adjusts screen brightness based on ambient light conditions.\n\n• Voice Recognition: You can tell the answer text or option numbers to mark the answers.</string>
+    <string name="features">Features:</string>
+    <string name="quizapp_is_an_interactive_quiz_application_designed_to_test_your_knowledge_on_android">QuizApp is an interactive quiz application designed to test your knowledge on Android.</string>
+    <string name="welcome_to_quizapp">Welcome to QuizApp!</string>
+    <string name="back">Back</string>
+
+    <string-array name="questions">
+        <item>Who initially developed Android?</item>
+        <item>What is the name of the Android build tool for compiling and packaging apps?</item>
+        <item>What is an APK in Android?</item>
+        <item>What is the name of Android\'s virtual machine?</item>
+        <item>Which file specifies the essential features of an Android app?</item>
+        <item>Which component in Android is responsible for screen navigation?</item>
+        <item>What is a Fragment in Android?</item>
+        <item>Android is developed specially for</item>
+        <item>What is the Android operating system based on?</item>
+        <item>What programming language is primarily used for Android app development?</item>
+    </string-array>
+
+    <!-- Answers -->
+    <string-array name="answers">
+        <item>Android Inc.</item>
+        <item>Gradle</item>
+        <item>Android Package Kit</item>
+        <item>Dalvik</item>
+        <item>AndroidManifest.xml</item>
+        <item>Activity</item>
+        <item>A piece of an activity</item>
+        <item>Mobile</item>
+        <item>Linux</item>
+        <item>Java</item>
+    </string-array>
+
+    <!-- Options -->
+    <string-array name="options">
+        <item>Google</item>
+        <item>Apple</item>
+        <item>Android Inc.</item>
+
+        <item>Gradle</item>
+        <item>Apache Maven</item>
+        <item>Jenkins</item>
+
+        <item>A type of permission</item>
+        <item>Android Package Kit</item>
+        <item>A configuration file</item>
+
+        <item>VirtualBox</item>
+        <item>Dalvik</item>
+        <item>JVM</item>
+
+        <item>build.gradle</item>
+        <item>MainActivity.java</item>
+        <item>AndroidManifest.xml</item>
+
+        <item>View</item>
+        <item>Activity</item>
+        <item>Service</item>
+
+        <item>A piece of an activity</item>
+        <item>A type of intent</item>
+        <item>A security feature</item>
+
+        <item>Laptop</item>
+        <item>Mobile</item>
+        <item>Servers</item>
+
+        <item>Windows</item>
+        <item>IOS</item>
+        <item>Linux</item>
+
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+    </string-array>
+</resources>

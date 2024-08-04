@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.quizapp_android.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/welcome_to_quizapp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewWelcome"
+            android:layout_marginTop="20dp"
+            android:text="@string/quizapp_is_an_interactive_quiz_application_designed_to_test_your_knowledge_on_android"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewFeaturesTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewDescription"
+            android:layout_marginTop="20dp"
+            android:text="@string/features"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFeatures"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewFeaturesTitle"
+            android:layout_marginTop="10dp"
+            android:text="@string/multiple_choice_questions_test_your_knowledge_with_a_wide_range_of_multiple_choice_questions_n_n_score_tracking_track_your_progress_with_a_real_time_score_counter_n_n_shake_for_next_question_shake_your_device_to_move_to_the_next_question_on_supported_devices_n_n_light_sensor_automatically_adjusts_screen_brightness_based_on_ambient_light_conditions"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewHowToPlayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewFeatures"
+            android:layout_marginTop="20dp"
+            android:text="@string/how_to_play"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewHowToPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHowToPlayTitle"
+            android:layout_marginTop="10dp"
+            android:text="@string/start_quiz_enter_your_name_and_begin_answering_questions_n_n_navigate_use_buttons_or_shake_your_device_to_navigate_through_questions_n_n_submit_finish_all_questions_to_see_your_final_score"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textViewEnjoy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewHowToPlay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/enjoy_quizapp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textViewThankYou"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewEnjoy"
+            android:layout_marginTop="20dp"
+            android:text="@string/thank_you_for_using_quizapp_we_hope_you_enjoy_challenging_yourself_and_learning_new_things_with_our_quiz_application"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewThankYou"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/back"
+            android:layout_marginBottom="20dp" />
+
+    </RelativeLayout>
+</ScrollView>
