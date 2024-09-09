@@ -1,6 +1,6 @@
 # QuizApp Android Application
 
-QuizApp is an Android application designed to present users with a series of quiz questions. Users can select their answers either by tapping the on-screen options or using voice commands. Additionally, the app incorporates accelerometer sensors to navigate through the questions by shaking the device.
+QuizApp is an Android application designed to present users with a series of quiz questions. Users can select their answers either by tapping the on-screen options or using voice commands. Additionally, the app incorporates accelerometer sensors to navigate through the questions by shaking the  device.
 
 ## Features
 
